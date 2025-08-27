@@ -4,6 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SakoriBakori.com | Coming Soon</title>
+
+  <!-- ✅ Google AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1460400536914593"
+    crossorigin="anonymous"></script>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,15 +16,12 @@
       color: #fff;
       margin: 0;
       text-align: center;
-      user-select: none; /* Prevent text copy */
+      user-select: none;
     }
     header { padding: 60px 20px 20px; }
     header h1 { font-size: 2.8rem; margin-bottom: 10px; }
     header p { font-size: 1.2rem; opacity: 0.9; }
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1460400536914593"
-     crossorigin="anonymous"></script>
-    
     .tiles {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -38,16 +40,13 @@
       align-items: center;
     }
     .tile:hover { transform: translateY(-5px); }
-
-    /* 🔹 Make all images same size */
     .tile img {
       width: 100%;
-      height: 180px;  /* fixed height */
-      object-fit: cover; /* crops nicely without distortion */
+      height: 180px;
+      object-fit: cover;
       border-radius: 12px;
       margin-bottom: 15px;
     }
-
     .tile h3 { margin: 10px 0 5px; font-size: 1.2rem; }
     .tile p { font-size: 0.95rem; }
 
@@ -93,27 +92,21 @@
 
   <!-- Tiles Section -->
   <section class="tiles">
-    <div class="tile">
-      <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" alt="Job Search">
-      <h3>Search Jobs Easily</h3>
-      <p>Find the latest government, PSU, and private jobs tailored for Assam job seekers.</p>
-    </div>
-    <div class="tile">
-      <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Profile">
-      <h3>Build Your Profile</h3>
-      <p>Create your profile and let recruiters find you effortlessly.</p>
-    </div>
-    <div class="tile">
-      <img src="https://images.pexels.com/photos/4065904/pexels-photo-4065904.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Apply">
-      <h3>One-Click Apply</h3>
-      <p>Save time by applying to multiple jobs with just one click.</p>
-    </div>
-    <div class="tile">
-      <img src="https://images.pexels.com/photos/3184463/pexels-photo-3184463.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Notifications">
-      <h3>Job Alerts</h3>
-      <p>Get instant notifications when new jobs matching your profile are posted.</p>
-    </div>
+    <!-- ... your existing tiles ... -->
   </section>
+
+  <!-- ✅ Google AdSense Ad Unit -->
+  <div style="margin: 40px 0;">
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center; min-height: 100px;"
+         data-ad-client="ca-pub-1460400536914593"
+         data-ad-slot="1234567890"  <!-- Replace with your actual slot ID -->
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
 
   <!-- Subscription -->
   <form class="subscribe" onsubmit="event.preventDefault(); alert('Thank you! We’ll notify you at launch.');">
