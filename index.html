@@ -37,8 +37,6 @@
       padding: 40px 20px;
       max-width: 1100px;
       margin: auto;
-      position: relative;
-      z-index: 1;
     }
     .tile {
       background: rgba(255,255,255,0.1);
@@ -48,8 +46,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 300px;
-      margin: auto;
     }
     .tile:hover {
       transform: translateY(-5px);
@@ -142,14 +138,14 @@
       <h3>Job Alerts</h3>
       <p>Get instant notifications when new jobs matching your profile are posted.</p>
     </div>
-  </section>
+  </section> <!-- ✅ Tiles section closed before ad -->
 
-  <!-- ✅ Google AdSense Ad Unit -->
-  <div style="max-width: 728px; margin: 40px auto;">
+  <!-- ✅ AdSense Ad Unit -->
+  <div style="max-width:728px; margin:40px auto;">
     <ins class="adsbygoogle"
          style="display:block; width:100%; min-height:100px;"
          data-ad-client="ca-pub-1460400536914593"
-         data-ad-slot="1234567890"
+         data-ad-slot="1234567890"  <!-- Replace with your actual ad slot ID -->
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
     <script>
